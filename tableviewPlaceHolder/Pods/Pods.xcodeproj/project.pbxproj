@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000C19E3450DCB43EFF5E03C891BE1EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB822807855778ADC6F0ED2C9CAE5BC /* Assets.xcassets */; };
+		065FC88259BB6081C6E1E8AFBF1EAA10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		083A980BC39ABEDFA4A2A54C8EF3BBF1 /* PlaceholdersProvider+Defauls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199E268D6998A51475D8B5C93B89A2A5 /* PlaceholdersProvider+Defauls.swift */; };
+		099CA3302F4A706EA170BD3E93A5E491 /* TableView+Switcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CE39368A49BF7B030C3848CE9FC430 /* TableView+Switcher.swift */; };
+		2EBD21495C07C32ADBF881A7CA79BC90 /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0799EC36B4E1C8F6822D070D169167E /* NibLoadable.swift */; };
+		44FC4BCE30909DA36359599082ED5BCA /* Pods-tableviewPlaceHolder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A259EF0C7B29884CB43EBDBD7E64CF5 /* Pods-tableviewPlaceHolder-dummy.m */; };
+		577E2430DBA87FB853CA71276091FEC5 /* PlaceholderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68B8D7557347566B06656656518377E /* PlaceholderData.swift */; };
+		63D2D4992991D582F52627F5AE082492 /* PlaceholdersProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E038201667430D21CE1ABEBEC4E0E2E2 /* PlaceholdersProvider.swift */; };
+		64AF3E03375C18FE63D723413E7ACD32 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D921A0596436269BDBDBF81B9CCE43 /* ErrorMessage.swift */; };
+		66E4E7F799735C29BF21B4F08A10154A /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE7348E0983BD9A003F60268F800D8C /* CollectionView.swift */; };
+		6DA91435DC244DA954C843151761EEDF /* PlaceholderDataSourceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6D15813DEB5ADD80FA83D2B4AFA693 /* PlaceholderDataSourceDelegate.swift */; };
+		70DB136F5FA54154C5F6B26F466B5F9C /* CollectionView+Switcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A4E0EB150CD7A1D326EA03E3CA5D32 /* CollectionView+Switcher.swift */; };
+		7A94B710DF1C61C43768DD21DBE928AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7C339157A6526207ADD1E32426030A8E /* PlaceholderStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956CADFF4897E82092EDF9A20B9E1B6E /* PlaceholderStyle.swift */; };
+		7D0E07877AF8A431FC67273DC398CB9C /* PlaceholderCollectionViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 8A75FADCE042EEACCEC7BC147699487A /* PlaceholderCollectionViewCell.xib */; };
+		7DE9C91B13C3CFF9D91E64DD3DCC0AA0 /* Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7052CAF12A3CE5770D3368F22EE89FF8 /* Placeholder.swift */; };
+		86BB3484EB5FD2643206400B021532E8 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56787B68B77CD10C570C202E9F8875F /* Reusable.swift */; };
+		89427CF67F6CA1CA2D96312517DCA33B /* Pods-tableviewPlaceHolder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98DB0DA34BB1B9400142F2DD87D89B27 /* Pods-tableviewPlaceHolder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91412D4AF452A630B1C4B85F24561503 /* PlaceholderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEF5D53AE1C4E85C6609431ACDD7167 /* PlaceholderCollectionViewCell.swift */; };
+		962FCEEBF89038DBB93053FEA395E234 /* HGPlaceholders-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD34F3E50E6633220D1EC0E0A5C20D01 /* HGPlaceholders-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADCC8EA927737749A39F97C87E360E27 /* CellPlaceholding.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BCF2AFACB9A1F7719CCCC6B84D46D5 /* CellPlaceholding.swift */; };
+		B0ED677A3B0398D04EC10CAD22B880DF /* HGPlaceholders-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2536D97212A3567C8C9F913BC6FD74A2 /* HGPlaceholders-dummy.m */; };
+		C818E21BC57FFFDCB529EF7E9DB0DEE9 /* PlaceholderTableViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = E703205993B01422BAB063FC066EEAE7 /* PlaceholderTableViewCell.xib */; };
+		E07E0D204144B58DAE34A660B32DB0DF /* PlaceholderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5302FD320C456B0B926681A21CD220 /* PlaceholderTableViewCell.swift */; };
+		EE2DF2B5A970C9DC414CE4C16C7C3FA4 /* PlaceholderKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4049DB0321956812DAA723D0D81E1435 /* PlaceholderKey.swift */; };
+		EF658CB33671B639EEBDC2051478890B /* PlaceholdersSwitcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE6005E6BA92582C7ED8B5972F9F0FC /* PlaceholdersSwitcher.swift */; };
+		FA76F523DB05B502F5B6AC9BCCA8A5F3 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE099E0A3E53894E2004E597DFC1F4A /* TableView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0183696987CE07350F99B83E792E6B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03360B543985C5710F2B2276AE96E32D;
+			remoteInfo = HGPlaceholders;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03B64D90A49F00253E04E5D0251BD631 /* Pods-tableviewPlaceHolder-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tableviewPlaceHolder-frameworks.sh"; sourceTree = "<group>"; };
+		0A259EF0C7B29884CB43EBDBD7E64CF5 /* Pods-tableviewPlaceHolder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-tableviewPlaceHolder-dummy.m"; sourceTree = "<group>"; };
+		0F5302FD320C456B0B926681A21CD220 /* PlaceholderTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlaceholderTableViewCell.swift; path = HGPlaceholders/Classes/Cells/PlaceholderTableViewCell.swift; sourceTree = "<group>"; };
+		14A4E0EB150CD7A1D326EA03E3CA5D32 /* CollectionView+Switcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CollectionView+Switcher.swift"; path = "HGPlaceholders/Classes/Views/CollectionView+Switcher.swift"; sourceTree = "<group>"; };
+		14F68465B3967E4A589125820C152E6B /* HGPlaceholders.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HGPlaceholders.release.xcconfig; sourceTree = "<group>"; };
+		199E268D6998A51475D8B5C93B89A2A5 /* PlaceholdersProvider+Defauls.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PlaceholdersProvider+Defauls.swift"; path = "HGPlaceholders/Classes/PlaceholdersProvider/PlaceholdersProvider+Defauls.swift"; sourceTree = "<group>"; };
+		2536D97212A3567C8C9F913BC6FD74A2 /* HGPlaceholders-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HGPlaceholders-dummy.m"; sourceTree = "<group>"; };
+		3A6D15813DEB5ADD80FA83D2B4AFA693 /* PlaceholderDataSourceDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlaceholderDataSourceDelegate.swift; path = HGPlaceholders/Classes/PlaceholdersProvider/PlaceholderDataSourceDelegate.swift; sourceTree = "<group>"; };
+		3FB822807855778ADC6F0ED2C9CAE5BC /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = HGPlaceholders/Assets/Assets.xcassets; sourceTree = "<group>"; };
+		4049DB0321956812DAA723D0D81E1435 /* PlaceholderKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlaceholderKey.swift; path = HGPlaceholders/Classes/Placeholder/PlaceholderKey.swift; sourceTree = "<group>"; };
+		4594A4C6BAAC82B81DF97C8D0DD85AE0 /* HGPlaceholders-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HGPlaceholders-Info.plist"; sourceTree = "<group>"; };
+		4CA900835A8AC5544E3DF567D9E61275 /* Pods-tableviewPlaceHolder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tableviewPlaceHolder.debug.xcconfig"; sourceTree = "<group>"; };
+		5433BB0B061CB7BD10D9131C8B2C245E /* Pods-tableviewPlaceHolder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-tableviewPlaceHolder.modulemap"; sourceTree = "<group>"; };
+		55672A420C38E730D866909B6994A04E /* HGPlaceholders.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HGPlaceholders.modulemap; sourceTree = "<group>"; };
+		7052CAF12A3CE5770D3368F22EE89FF8 /* Placeholder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Placeholder.swift; path = HGPlaceholders/Classes/Placeholder/Placeholder.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		76D921A0596436269BDBDBF81B9CCE43 /* ErrorMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ErrorMessage.swift; path = HGPlaceholders/Classes/Placeholder/ErrorMessage.swift; sourceTree = "<group>"; };
+		7B604223056F85288B816938CF316DC4 /* HGPlaceholders-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HGPlaceholders-prefix.pch"; sourceTree = "<group>"; };
+		7EE6005E6BA92582C7ED8B5972F9F0FC /* PlaceholdersSwitcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlaceholdersSwitcher.swift; path = HGPlaceholders/Classes/Protocols/PlaceholdersSwitcher.swift; sourceTree = "<group>"; };
+		8A75FADCE042EEACCEC7BC147699487A /* PlaceholderCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = PlaceholderCollectionViewCell.xib; path = HGPlaceholders/Classes/Cells/PlaceholderCollectionViewCell.xib; sourceTree = "<group>"; };
+		8FE7348E0983BD9A003F60268F800D8C /* CollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollectionView.swift; path = HGPlaceholders/Classes/Views/CollectionView.swift; sourceTree = "<group>"; };
+		956CADFF4897E82092EDF9A20B9E1B6E /* PlaceholderStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlaceholderStyle.swift; path = HGPlaceholders/Classes/Placeholder/PlaceholderStyle.swift; sourceTree = "<group>"; };
+		98DB0DA34BB1B9400142F2DD87D89B27 /* Pods-tableviewPlaceHolder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-tableviewPlaceHolder-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B7B19A1BD6AB0A16F36C28544280F4E6 /* Pods-tableviewPlaceHolder-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-tableviewPlaceHolder-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B9AB08B228914576754DF2C47D4F5212 /* Pods-tableviewPlaceHolder-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tableviewPlaceHolder-acknowledgements.plist"; sourceTree = "<group>"; };
+		C56787B68B77CD10C570C202E9F8875F /* Reusable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reusable.swift; path = HGPlaceholders/Classes/Protocols/Reusable.swift; sourceTree = "<group>"; };
+		C66D41B022473C530A466EA7189C15B6 /* HGPlaceholders.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HGPlaceholders.debug.xcconfig; sourceTree = "<group>"; };
+		CE496D14DA0EA98EFF05A07F4C8E64A5 /* HGPlaceholders */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HGPlaceholders; path = HGPlaceholders.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2BCF2AFACB9A1F7719CCCC6B84D46D5 /* CellPlaceholding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CellPlaceholding.swift; path = HGPlaceholders/Classes/Protocols/CellPlaceholding.swift; sourceTree = "<group>"; };
+		D8CE39368A49BF7B030C3848CE9FC430 /* TableView+Switcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TableView+Switcher.swift"; path = "HGPlaceholders/Classes/Views/TableView+Switcher.swift"; sourceTree = "<group>"; };
+		DD34F3E50E6633220D1EC0E0A5C20D01 /* HGPlaceholders-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HGPlaceholders-umbrella.h"; sourceTree = "<group>"; };
+		DFEF5D53AE1C4E85C6609431ACDD7167 /* PlaceholderCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlaceholderCollectionViewCell.swift; path = HGPlaceholders/Classes/Cells/PlaceholderCollectionViewCell.swift; sourceTree = "<group>"; };
+		E038201667430D21CE1ABEBEC4E0E2E2 /* PlaceholdersProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlaceholdersProvider.swift; path = HGPlaceholders/Classes/PlaceholdersProvider/PlaceholdersProvider.swift; sourceTree = "<group>"; };
+		E703205993B01422BAB063FC066EEAE7 /* PlaceholderTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = PlaceholderTableViewCell.xib; path = HGPlaceholders/Classes/Cells/PlaceholderTableViewCell.xib; sourceTree = "<group>"; };
+		EC26D39EA5FA4D360F86C302C526FADA /* Pods-tableviewPlaceHolder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tableviewPlaceHolder.release.xcconfig"; sourceTree = "<group>"; };
+		F0799EC36B4E1C8F6822D070D169167E /* NibLoadable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NibLoadable.swift; path = HGPlaceholders/Classes/Protocols/NibLoadable.swift; sourceTree = "<group>"; };
+		F68B8D7557347566B06656656518377E /* PlaceholderData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlaceholderData.swift; path = HGPlaceholders/Classes/Placeholder/PlaceholderData.swift; sourceTree = "<group>"; };
+		F97D70F6960A0A7B9C4431AE2B95A4F0 /* Pods-tableviewPlaceHolder-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tableviewPlaceHolder-Info.plist"; sourceTree = "<group>"; };
+		FE0D93F2960CA19BF22945701358DB92 /* Pods-tableviewPlaceHolder */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-tableviewPlaceHolder"; path = Pods_tableviewPlaceHolder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFE099E0A3E53894E2004E597DFC1F4A /* TableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableView.swift; path = HGPlaceholders/Classes/Views/TableView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C54ACCD213593F8A7A11F4199872A1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				065FC88259BB6081C6E1E8AFBF1EAA10 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7413E571E7A00D7E2CF1276607958D4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A94B710DF1C61C43768DD21DBE928AD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		197537F7E2A36B6791BCE5BFEA9432D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58FB5FB638BE93556C8B3EF0257F0F97 /* HGPlaceholders */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4E693F790C4D3C7DA39DC2CFD28E47F3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				63CBF2D4203D747393BC0DB3D6E1C933 /* Pods-tableviewPlaceHolder */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4E817939E382DE24B12E958697FCCFA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE496D14DA0EA98EFF05A07F4C8E64A5 /* HGPlaceholders */,
+				FE0D93F2960CA19BF22945701358DB92 /* Pods-tableviewPlaceHolder */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		58FB5FB638BE93556C8B3EF0257F0F97 /* HGPlaceholders */ = {
+			isa = PBXGroup;
+			children = (
+				D2BCF2AFACB9A1F7719CCCC6B84D46D5 /* CellPlaceholding.swift */,
+				8FE7348E0983BD9A003F60268F800D8C /* CollectionView.swift */,
+				14A4E0EB150CD7A1D326EA03E3CA5D32 /* CollectionView+Switcher.swift */,
+				76D921A0596436269BDBDBF81B9CCE43 /* ErrorMessage.swift */,
+				F0799EC36B4E1C8F6822D070D169167E /* NibLoadable.swift */,
+				7052CAF12A3CE5770D3368F22EE89FF8 /* Placeholder.swift */,
+				DFEF5D53AE1C4E85C6609431ACDD7167 /* PlaceholderCollectionViewCell.swift */,
+				8A75FADCE042EEACCEC7BC147699487A /* PlaceholderCollectionViewCell.xib */,
+				F68B8D7557347566B06656656518377E /* PlaceholderData.swift */,
+				3A6D15813DEB5ADD80FA83D2B4AFA693 /* PlaceholderDataSourceDelegate.swift */,
+				4049DB0321956812DAA723D0D81E1435 /* PlaceholderKey.swift */,
+				E038201667430D21CE1ABEBEC4E0E2E2 /* PlaceholdersProvider.swift */,
+				199E268D6998A51475D8B5C93B89A2A5 /* PlaceholdersProvider+Defauls.swift */,
+				7EE6005E6BA92582C7ED8B5972F9F0FC /* PlaceholdersSwitcher.swift */,
+				956CADFF4897E82092EDF9A20B9E1B6E /* PlaceholderStyle.swift */,
+				0F5302FD320C456B0B926681A21CD220 /* PlaceholderTableViewCell.swift */,
+				E703205993B01422BAB063FC066EEAE7 /* PlaceholderTableViewCell.xib */,
+				C56787B68B77CD10C570C202E9F8875F /* Reusable.swift */,
+				FFE099E0A3E53894E2004E597DFC1F4A /* TableView.swift */,
+				D8CE39368A49BF7B030C3848CE9FC430 /* TableView+Switcher.swift */,
+				9253072F8283E3BDC39F560D7D47D897 /* Resources */,
+				ADBE1485A0D7FB83FC26E57AA2DB5F07 /* Support Files */,
+			);
+			name = HGPlaceholders;
+			path = HGPlaceholders;
+			sourceTree = "<group>";
+		};
+		63CBF2D4203D747393BC0DB3D6E1C933 /* Pods-tableviewPlaceHolder */ = {
+			isa = PBXGroup;
+			children = (
+				5433BB0B061CB7BD10D9131C8B2C245E /* Pods-tableviewPlaceHolder.modulemap */,
+				B7B19A1BD6AB0A16F36C28544280F4E6 /* Pods-tableviewPlaceHolder-acknowledgements.markdown */,
+				B9AB08B228914576754DF2C47D4F5212 /* Pods-tableviewPlaceHolder-acknowledgements.plist */,
+				0A259EF0C7B29884CB43EBDBD7E64CF5 /* Pods-tableviewPlaceHolder-dummy.m */,
+				03B64D90A49F00253E04E5D0251BD631 /* Pods-tableviewPlaceHolder-frameworks.sh */,
+				F97D70F6960A0A7B9C4431AE2B95A4F0 /* Pods-tableviewPlaceHolder-Info.plist */,
+				98DB0DA34BB1B9400142F2DD87D89B27 /* Pods-tableviewPlaceHolder-umbrella.h */,
+				4CA900835A8AC5544E3DF567D9E61275 /* Pods-tableviewPlaceHolder.debug.xcconfig */,
+				EC26D39EA5FA4D360F86C302C526FADA /* Pods-tableviewPlaceHolder.release.xcconfig */,
+			);
+			name = "Pods-tableviewPlaceHolder";
+			path = "Target Support Files/Pods-tableviewPlaceHolder";
+			sourceTree = "<group>";
+		};
+		9253072F8283E3BDC39F560D7D47D897 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3FB822807855778ADC6F0ED2C9CAE5BC /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		ADBE1485A0D7FB83FC26E57AA2DB5F07 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				55672A420C38E730D866909B6994A04E /* HGPlaceholders.modulemap */,
+				2536D97212A3567C8C9F913BC6FD74A2 /* HGPlaceholders-dummy.m */,
+				4594A4C6BAAC82B81DF97C8D0DD85AE0 /* HGPlaceholders-Info.plist */,
+				7B604223056F85288B816938CF316DC4 /* HGPlaceholders-prefix.pch */,
+				DD34F3E50E6633220D1EC0E0A5C20D01 /* HGPlaceholders-umbrella.h */,
+				C66D41B022473C530A466EA7189C15B6 /* HGPlaceholders.debug.xcconfig */,
+				14F68465B3967E4A589125820C152E6B /* HGPlaceholders.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HGPlaceholders";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				197537F7E2A36B6791BCE5BFEA9432D0 /* Pods */,
+				4E817939E382DE24B12E958697FCCFA4 /* Products */,
+				4E693F790C4D3C7DA39DC2CFD28E47F3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		632375A2BD0AEB059535743A44CCE740 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				962FCEEBF89038DBB93053FEA395E234 /* HGPlaceholders-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93203CFF4B8B04240B77D45D5CAE8504 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89427CF67F6CA1CA2D96312517DCA33B /* Pods-tableviewPlaceHolder-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		03360B543985C5710F2B2276AE96E32D /* HGPlaceholders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F75212B6753F0760D173A76F8345DC6 /* Build configuration list for PBXNativeTarget "HGPlaceholders" */;
+			buildPhases = (
+				632375A2BD0AEB059535743A44CCE740 /* Headers */,
+				8DD0033FE9491FCBD350BFE2E44A7281 /* Sources */,
+				7413E571E7A00D7E2CF1276607958D4F /* Frameworks */,
+				6671385B223017DE15794BC91E4181FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HGPlaceholders;
+			productName = HGPlaceholders;
+			productReference = CE496D14DA0EA98EFF05A07F4C8E64A5 /* HGPlaceholders */;
+			productType = "com.apple.product-type.framework";
+		};
+		7839DC21D2DA32453EE589920FEAFE63 /* Pods-tableviewPlaceHolder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFA2F50E17C47579230FC8502F08DC4B /* Build configuration list for PBXNativeTarget "Pods-tableviewPlaceHolder" */;
+			buildPhases = (
+				93203CFF4B8B04240B77D45D5CAE8504 /* Headers */,
+				9B402668B697BB4918EB49C503A37273 /* Sources */,
+				0C54ACCD213593F8A7A11F4199872A1C /* Frameworks */,
+				FD56E0E2A06523F2D796D968E828F60B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E172BE612F769D05CFCF8A901A45F8AB /* PBXTargetDependency */,
+			);
+			name = "Pods-tableviewPlaceHolder";
+			productName = Pods_tableviewPlaceHolder;
+			productReference = FE0D93F2960CA19BF22945701358DB92 /* Pods-tableviewPlaceHolder */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4E817939E382DE24B12E958697FCCFA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03360B543985C5710F2B2276AE96E32D /* HGPlaceholders */,
+				7839DC21D2DA32453EE589920FEAFE63 /* Pods-tableviewPlaceHolder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6671385B223017DE15794BC91E4181FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000C19E3450DCB43EFF5E03C891BE1EA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD56E0E2A06523F2D796D968E828F60B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD0033FE9491FCBD350BFE2E44A7281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADCC8EA927737749A39F97C87E360E27 /* CellPlaceholding.swift in Sources */,
+				66E4E7F799735C29BF21B4F08A10154A /* CollectionView.swift in Sources */,
+				70DB136F5FA54154C5F6B26F466B5F9C /* CollectionView+Switcher.swift in Sources */,
+				64AF3E03375C18FE63D723413E7ACD32 /* ErrorMessage.swift in Sources */,
+				B0ED677A3B0398D04EC10CAD22B880DF /* HGPlaceholders-dummy.m in Sources */,
+				2EBD21495C07C32ADBF881A7CA79BC90 /* NibLoadable.swift in Sources */,
+				7DE9C91B13C3CFF9D91E64DD3DCC0AA0 /* Placeholder.swift in Sources */,
+				91412D4AF452A630B1C4B85F24561503 /* PlaceholderCollectionViewCell.swift in Sources */,
+				7D0E07877AF8A431FC67273DC398CB9C /* PlaceholderCollectionViewCell.xib in Sources */,
+				577E2430DBA87FB853CA71276091FEC5 /* PlaceholderData.swift in Sources */,
+				6DA91435DC244DA954C843151761EEDF /* PlaceholderDataSourceDelegate.swift in Sources */,
+				EE2DF2B5A970C9DC414CE4C16C7C3FA4 /* PlaceholderKey.swift in Sources */,
+				63D2D4992991D582F52627F5AE082492 /* PlaceholdersProvider.swift in Sources */,
+				083A980BC39ABEDFA4A2A54C8EF3BBF1 /* PlaceholdersProvider+Defauls.swift in Sources */,
+				EF658CB33671B639EEBDC2051478890B /* PlaceholdersSwitcher.swift in Sources */,
+				7C339157A6526207ADD1E32426030A8E /* PlaceholderStyle.swift in Sources */,
+				E07E0D204144B58DAE34A660B32DB0DF /* PlaceholderTableViewCell.swift in Sources */,
+				C818E21BC57FFFDCB529EF7E9DB0DEE9 /* PlaceholderTableViewCell.xib in Sources */,
+				86BB3484EB5FD2643206400B021532E8 /* Reusable.swift in Sources */,
+				FA76F523DB05B502F5B6AC9BCCA8A5F3 /* TableView.swift in Sources */,
+				099CA3302F4A706EA170BD3E93A5E491 /* TableView+Switcher.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B402668B697BB4918EB49C503A37273 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44FC4BCE30909DA36359599082ED5BCA /* Pods-tableviewPlaceHolder-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E172BE612F769D05CFCF8A901A45F8AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HGPlaceholders;
+			target = 03360B543985C5710F2B2276AE96E32D /* HGPlaceholders */;
+			targetProxy = B0183696987CE07350F99B83E792E6B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		28F5C6E399748089DAFA5A9AE84E4C91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CA900835A8AC5544E3DF567D9E61275 /* Pods-tableviewPlaceHolder.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-tableviewPlaceHolder/Pods-tableviewPlaceHolder-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-tableviewPlaceHolder/Pods-tableviewPlaceHolder.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4214E6946993DF02ED98D89047C64016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		543F0C2E8F6C565A6099021442AF203F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14F68465B3967E4A589125820C152E6B /* HGPlaceholders.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HGPlaceholders/HGPlaceholders-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HGPlaceholders/HGPlaceholders-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/HGPlaceholders/HGPlaceholders.modulemap";
+				PRODUCT_MODULE_NAME = HGPlaceholders;
+				PRODUCT_NAME = HGPlaceholders;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5E5428B33681924BD779CC05E35BC567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC26D39EA5FA4D360F86C302C526FADA /* Pods-tableviewPlaceHolder.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-tableviewPlaceHolder/Pods-tableviewPlaceHolder-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-tableviewPlaceHolder/Pods-tableviewPlaceHolder.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CD85FD90473CFBE797E4264E7BBC70AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E7A0F2ADBF46F3F515B7A3155E6D0CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C66D41B022473C530A466EA7189C15B6 /* HGPlaceholders.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HGPlaceholders/HGPlaceholders-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HGPlaceholders/HGPlaceholders-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/HGPlaceholders/HGPlaceholders.modulemap";
+				PRODUCT_MODULE_NAME = HGPlaceholders;
+				PRODUCT_NAME = HGPlaceholders;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4214E6946993DF02ED98D89047C64016 /* Debug */,
+				CD85FD90473CFBE797E4264E7BBC70AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F75212B6753F0760D173A76F8345DC6 /* Build configuration list for PBXNativeTarget "HGPlaceholders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7A0F2ADBF46F3F515B7A3155E6D0CCB /* Debug */,
+				543F0C2E8F6C565A6099021442AF203F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFA2F50E17C47579230FC8502F08DC4B /* Build configuration list for PBXNativeTarget "Pods-tableviewPlaceHolder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28F5C6E399748089DAFA5A9AE84E4C91 /* Debug */,
+				5E5428B33681924BD779CC05E35BC567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
