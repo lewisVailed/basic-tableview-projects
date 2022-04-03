@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="154" id="KGk-i7-Jjw" customClass="FieldTableViewCell" customModule="repeatTableView3" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="516" height="154"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="516" height="154"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="O0l-pu-uvE">
+                        <rect key="frame" x="5" y="5" width="496" height="144"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="O0l-pu-uvE" secondAttribute="trailing" constant="5" id="C1v-70-aGf"/>
+                    <constraint firstItem="O0l-pu-uvE" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="EaA-Jr-V0I"/>
+                    <constraint firstItem="O0l-pu-uvE" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="Es0-Vh-OHs"/>
+                    <constraint firstAttribute="bottom" secondItem="O0l-pu-uvE" secondAttribute="bottom" constant="5" id="H9U-QZ-ugj"/>
+                    <constraint firstItem="O0l-pu-uvE" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="LDX-Nq-Ori"/>
+                    <constraint firstItem="O0l-pu-uvE" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="5" id="Olg-X3-co4"/>
+                    <constraint firstAttribute="trailing" secondItem="O0l-pu-uvE" secondAttribute="trailing" constant="5" id="Zdf-iA-Ufe"/>
+                    <constraint firstItem="O0l-pu-uvE" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="10" id="bR6-gR-PFg"/>
+                    <constraint firstAttribute="bottom" secondItem="O0l-pu-uvE" secondAttribute="bottom" constant="5" id="f8J-NI-xVV"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="O0l-pu-uvE" secondAttribute="bottom" constant="10" id="ltI-pR-BPH"/>
+                    <constraint firstAttribute="trailing" secondItem="O0l-pu-uvE" secondAttribute="trailing" constant="15" id="xlR-3g-Oly"/>
+                    <constraint firstItem="O0l-pu-uvE" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="xyk-3t-6Vb"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="field" destination="O0l-pu-uvE" id="pVH-Xn-XNf"/>
+            </connections>
+            <point key="canvasLocation" x="-4.3478260869565224" y="136.60714285714286"/>
+        </tableViewCell>
+    </objects>
+</document>
